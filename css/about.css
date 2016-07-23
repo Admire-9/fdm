@@ -1,0 +1,129 @@
+.about-us-start{
+    width: 100%;
+    height: 500px;
+    margin-top: 22px;
+    background: url("../img/aboutusPic1.png") no-repeat center;
+}
+.about-us-title{
+
+}
+.item-title h2{
+    font-size: 1.37em;
+    text-align: center;
+    margin: 83px 0 19px 0;
+}
+.item-title h3{
+    font-size: 1.37em;
+    text-align: center;
+    font-family: "Î¢ÈíÑÅºÚ Light";
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 54px;
+}
+
+.about-item {
+    width: 79%;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.cut-off-rule {
+    width: 79%;
+    height: 16px;
+    box-sizing: border-box;
+    border-top: 8px solid #000;
+    border-bottom: 2px solid #000;
+    margin: 68px auto 0;
+}
+.about-us img{
+    float: left;
+    margin-right: 43px;
+}
+.about-us p {
+    font-size: 1em;
+    line-height: 2.125em;
+    color: #5C5C5C;
+}
+
+.join-us p{
+    font-size: 1em;
+    line-height: 2.31em;
+    color: #474747;
+}
+.join-us b {
+    font-weight: normal;
+    display: block;
+}
+.join-us b span{
+    color: #BC0F0F;
+}
+.help-item {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding: 31px 0;
+    border-bottom: 2px solid #CDCDCD;
+    color: #666;
+}
+.help-item:last-child{
+    border-bottom: none;
+}
+.help-item>span {
+    display: block;
+}
+
+.help-center {
+    font-size: 1.25em;
+}
+
+.help-two span{
+    padding-bottom: 46px;
+}
+.help-two img {
+    margin-left: 25px;
+}
+.contact p {
+    font-size: 1.25em;
+    line-height: 2.56em;
+    color: #666;
+    margin-bottom: 135px;
+}
+@media only screen and (max-width:481px){
+    .about-us-start{
+        background: url("../img/aboutusPic1-560.png") no-repeat center;
+        height: 194px;
+    }
+    .item-title h2{
+        margin-top: 42px;
+    }
+    .item-title h3{
+        margin-bottom: 34px;
+    }
+    .about-item{
+        width: 100%;
+        max-width: 640px;
+    }
+
+    .about-us img {
+        width: 100%;
+        margin-right: 0;
+    }
+    .about-us p {
+        padding: 0 2% ;
+        font-size: 15px;
+    }
+    .cut-off-rule{
+        width: 100%;
+        margin-top: 32px;
+    }
+    .join-us img{
+        width: 100%;
+    }
+
+    .contact img{
+        width: 100%;
+    }
+    .contact p{
+        margin-bottom: 85px;
+    }
+}
